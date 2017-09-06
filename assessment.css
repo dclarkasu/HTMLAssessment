@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+  font-size: 1.5em;
+}
+blockquote {
+  background-color: magenta;
+  color: white;
+}
+th {
+  color: green;
+}
+td {
+  text-align: center;
+}
+table, th, td, tr {
+  border: 3px solid black;
+  border-width: 3px;
+  border-color: black;
+}
+table {
+  border-collapse: collapse;
+}
+ul, li {
+  list-style-type: square;
+}
+ol, li {
+  list-style-type: square;
+}
+#checkbox-grid > li {
+  list-style-type: none;
+}
+.hyperLink:hover {
+  color: orange;
+  background-color: purple;
+}
+#teamRoster:first-child:
