@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <style>
+    /*th {text-align: center;}*/
+  </style>
     <meta charset="utf-8">
     <title>HTML Assessment</title>
   </head>
@@ -17,19 +20,19 @@
   <table>
     <thead>
       <tr>
-        <th>Scores by Quarter</th>
+        <th colspan="6" text-align="center">Scores by Quarter</th>
       </tr>
       <tr>
-        <th>Team Name</th>
+        <th rowspan="2">Team Name</th>
         <th colspan="2">First Half</th>
         <th colspan="2">Second Half</th>
         <th>Final</th>
       </tr>
       <tr>
-        <th col="2">Q1</th>
-        <th>Q2</th>
-        <th>Q3</th>
-        <th>Q4</th>
+        <th align="left">Q1</th>
+        <th align="left">Q2</th>
+        <th align="left">Q3</th>
+        <th align="left">Q4</th>
       </tr>
     </thead>
     <tbody>
@@ -66,6 +69,8 @@
       <img src="http://www.appstate.edu/_images/appstate-200x200.png" style="width: 10%; height: 10%" alt="App State logo" title="App State logo">
     </li>
     <a href="http://appstatesports.com/index.aspx?path=football" target="_blank">Appalachian State Mountaineers</a>
+    <br />
+    <br />
       <ul>
         <li>Coach: Jerry Moore</li>
         <li>QB:</li>
@@ -74,10 +79,13 @@
             <li>Trey Elder</li>
           </ol>
       </ul>
+      <br/>
     <li>
       <img src="http://content.sportslogos.net/logos/32/750/full/emxykwpleshgi2ytw1cfxl5ic.png" style="width: 10%; height: 10%" alt="Michigan logo" title="Michigan logo">
     </li>
     <a href="http://www.mgoblue.com/index.aspx?path=football" target="_blank">Michigan Wolverines</a>
+    <br />
+    <br/>
       <ul>
         <li>Coach: Lloyd Carr</li>
         <li>QB:</li>
@@ -87,8 +95,6 @@
             <li>Steven Threet</li>
           </ol>
       </ul>
-  <li>
-  </ul>
 
   <h1>Form</h1>
   <form>
@@ -118,6 +124,7 @@
     <input type="radio" value="amateur">Amateur
     <input type="radio" value="college">College
     <input type="radio" value="professional">Professional
+    <br />
     <input type="submit">
   </form>
 
